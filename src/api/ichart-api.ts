@@ -112,6 +112,8 @@ export interface IChartApi {
 	 */
 	subscribeCrosshairMove(handler: MouseEventHandler): void;
 
+	setCrossHairXY(x: number, y: number, visible: boolean): void;
+
 	/**
 	 * Removes a subscription on crosshair movement
 	 *
